@@ -1,0 +1,132 @@
+body{
+    text-align: center;
+    display: block;
+    
+}
+p{
+    font-size: 50px;
+    color:white;
+}
+
+
+
+.tile{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 50px;
+    
+
+}
+
+    
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    
+}
+h1{
+    color:brown;
+    font-size: 15px;
+    margin-left: 5px;
+
+
+}
+.container_tiles {
+
+    float: right;
+    width:600px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header{
+
+    background-color: rgb(206, 149, 44);
+    color: white;
+ }
+
+.card{
+    align-items: center;
+}
+
+.page-header-1 {
+display: flex;
+
+}
+.mode button{
+display: flex;
+}
+.win{
+    background-color: red;
+}
+
+
+/**********************************************/
+/****************Media Query *****************/
+
+@media (max-width: 685px ) {
+    .container_tiles{ 
+        width: 510px;
+
+         }
+    .tile{
+        width: 170px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 589px) {
+    h1{
+        font-size: 10px;
+    }
+    .container_tiles{ 
+        width: 320px;
+        height: 100px;
+        margin-left:20px;
+
+         }
+    .tile{
+        width: 100px;
+        height: 33.35px;
+        font-size: 20px;
+    }
+    .page-header-1 h1{
+        font-size: 20px;
+
+    } 
+    .page-header-1 ol li{
+        font-size: 15px;
+    }
+    
+  
+
+}
+@media (max-width: 380px) {
+    .container_tiles{ 
+        width: 220px;
+        height: 90px;
+        margin-right: 18px;
+
+         }
+    .tile{
+        width: 72.5px;
+        height: 30px;
+    }
+}
+@media (max-width: 280px) {
+    .container_tiles{ 
+        width: 180px;
+        height: 70px;
+
+         }
+    .tile{
+        width: 60px;
+        height: 23px;
+    }
+}

@@ -1,0 +1,118 @@
+/* ###### IE STYLES ###### */
+
+*::-ms-backdrop, .search-imgs {
+  display: -ms-inline-flexbox;
+}
+
+*::-ms-backdrop, .main-content-body-profile .media-body {
+  flex: inherit;
+}
+*::-ms-backdrop, .main-msg-wrapper {
+  display: inline-table;
+}
+*::-ms-backdrop, .flex-wrap.ht-50.mb-lg-4{
+	height: inherit;
+	margin-bottom:0;
+}
+*::-ms-backdrop, .btn-icon {
+  width: inherit;
+  height: inherit;
+}
+
+*::-ms-backdrop, .bg-img:before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: 0;
+}
+*::-ms-backdrop, .crypto-transcation .media-body{
+	flex:inherit;
+}
+*::-ms-backdrop, .sales-product-info #chart{
+	min-height:219px !important;
+}
+*::-ms-backdrop,
+.main-footer {
+    width: 100%;
+    position: relative;
+    bottom: -5px;
+    margin-top: 1.5rem;
+    margin-bottom: -10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+*::-ms-backdrop,
+.main-content {
+    height: 100%;
+}
+*::-ms-backdrop, #checkoutsteps .item .thumb{
+	display:inline;
+}
+*::-ms-backdrop, .transcation-crypto .wd-30{
+	width:inherit;
+}
+*::-ms-backdrop, .breadcrumb-4 ol{
+	justify-content:flex-end;
+	display:flex;
+}
+*::-ms-backdrop, .breadcrumb-3 ol{
+	justify-content:center;
+	display:flex;
+}
+*::-ms-backdrop, html.fullscreen{
+	width:100%;
+}
+*::-ms-backdrop, html.fullscreen .main-content{
+	overflow:scroll;
+	overflow-x:hidden;
+	height:100vh;
+}
+*::-ms-backdrop, .owl-item .wd-30 , .table-responsive-sm .wd-30{
+	width:auto;
+}
+*::-ms-backdrop, .owl-item .ht-30 , .table-responsive-sm .ht-30{
+	height:auto;
+}
+.table-responsive .wd-30{
+	width:auto;
+}
+*::-ms-backdrop, .table-responsive .media-body {
+	flex:inherit;
+}
+*::-ms-backdrop, #task-list1 .task-icon2 {
+	display:inline;
+}
+*::-ms-backdrop, .main-content-body-mail1 .mail-container .inbox-small-cells .avatar{
+	display:block;
+}
+*::-ms-backdrop, .horizontalmenu {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+*::-ms-backdrop, .main-header-center .btn {
+  margin-left:-6px;
+}
+*::-ms-backdrop, .exchange {
+  display: inline-table;
+}
+*::-ms-backdrop, .exchange1 {
+  margin: 10px 0 !important;
+}
+*::-ms-backdrop, .exchange2 {
+  margin-top: 5px !important;
+}
+*::-ms-backdrop, .orders2 {
+  display:block;
+}
+*::-ms-backdrop, .sidemenu-logo  .main-logo{
+  display:block !important;
+}
+/* ###### IE STYLES ###### */
